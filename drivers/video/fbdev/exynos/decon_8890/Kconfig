@@ -65,7 +65,7 @@ config FB_DSU_REG_LOCK
 
 config DECON_EVENT_LOG
 	bool "Display sub-system event logger (DECON/DSIM/VPP)"
-        depends on DEBUG_INFO && EXYNOS_DECON_8890
+        depends on EXYNOS_DECON_8890
         default y
 
 config DSIM_ESD_RECOVERY_NOPOWER
